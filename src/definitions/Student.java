@@ -59,4 +59,7 @@ public class Student {
         testInitializeRandomBooks();
         return issuedBooks;
     }
+    public void setIssuedBooks(Book[] issuedBooks) {
+       this.issuedBooks = issuedBooks;
+    }
 }
