@@ -49,4 +49,7 @@ public class Student {
     public void setUniversityRollNumber(long universityRollNumber) {
        this.universityRollNumber = universityRollNumber;
     }
+    public void getNumberOfBooksIssued() {
+       return numberOfBooksIssued;
+    }
 }
