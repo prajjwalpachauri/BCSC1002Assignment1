@@ -10,4 +10,7 @@ public class Book {
     private String bookName;
     private String bookAuthor;
     private String bookISBNNumber;
+
+    public Book(String s, String s1, String s2) {
+    }
 }
