@@ -62,4 +62,10 @@ public class Student {
     public void setIssuedBooks(Book[] issuedBooks) {
        this.issuedBooks = issuedBooks;
     }
+    public String getFirstName() {
+       return firstName;
+    }
+    public void setFirstName(String firstName) {
+       this.firstName = firstName;
+    }
 }
