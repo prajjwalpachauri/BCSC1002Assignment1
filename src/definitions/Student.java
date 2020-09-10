@@ -55,4 +55,8 @@ public class Student {
     public void setNumberOfBooksIssued(int numberOfBooksIssued) {
        this.numberOfBooksIssued = numberOfBooksIssued;
     }
+    public Book[] getIssuedBooks() {
+        testInitializeRandomBooks();
+        return issuedBooks;
+    }
 }
