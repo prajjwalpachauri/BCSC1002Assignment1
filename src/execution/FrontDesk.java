@@ -6,11 +6,18 @@
  * */
 package execution;
 
-import definitions.Student;
+
+import definitions.Library;
 
 public class FrontDesk {
-    public static void main(String[] args) {
-        Student studentDetails = new Student();
 
+    private static final int ISSUE_NEW_BOOK = 1;
+    private static final int RETURN_A_BOOK = 2;
+    private static final int ALL_ISSUES_BOOKS = 3;
+    private static final int EXIT = 4;
+
+    public static void main(String[] args) {
+        int studentChoice;
+        Library library = new Library();
     }
 }
